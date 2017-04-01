@@ -1,0 +1,353 @@
+a {
+  color: $default-theme-color;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: $default-theme-color;
+}
+
+.color-default {
+  color: $default-theme-color !important;
+}
+
+.btn-link {
+  color: $default-theme-color;
+}
+
+#header .main-nav li a:hover, #header .main-nav li.active a {
+  border-color: $default-theme-color
+}
+
+#header .search-container .search button {
+  color: $default-theme-color;
+}
+
+#header .search-container .search input[type="text"]:focus {
+  border-color: $default-theme-color;
+}
+
+.no-touch .cd-slider-nav a:hover {
+  background-color: $default-theme-color;
+}
+
+.cd-slider-nav .cd-marker {
+  background-color: $default-theme-color;
+}
+
+#footer a:hover {
+  color: $default-theme-color;
+}
+
+.btn-primary {
+  background-color: $default-theme-color;
+}
+
+.owl-dots .owl-dot.active {
+  background-color: $default-theme-color;
+}
+
+.counter span {
+  color: $default-theme-color;
+}
+
+.service-box, .service-box.two:hover {
+  border-color: $default-theme-color;
+}
+
+.service-box.three:after {
+  background: $default-theme-color;
+}
+
+.service-box i {
+  color: $default-theme-color;
+}
+
+.toggle .toggle-heading a i {
+  color: $default-theme-color;
+  border-color: $default-theme-color;
+}
+
+.meet-advisors-content h3 {
+  color: $default-theme-color;
+}
+
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor {
+  background-color: $default-theme-color;
+}
+
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a {
+  background-color: $default-theme-color;
+}
+
+.cd-slider-nav li .slide-number {
+  background-color: $default-theme-color;
+}
+
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number {
+  color: $default-theme-color;
+}
+
+#header.header-two .header-contact-widget li i {
+  color: $default-theme-color;
+}
+
+#header.header-two .header-contact-widget li p a:hover {
+  color: $default-theme-color;
+}
+
+.breadcrumbs li a:hover {
+  color: $default-theme-color;
+}
+
+.blog-item .blog-content h3 a:hover {
+  color: $default-theme-color;
+}
+
+.blog-item .blog-meta li a:hover {
+  color: $default-theme-color;
+}
+
+.categories li a:hover {
+  color: $default-theme-color;
+}
+
+.tags li a:hover {
+  color: $default-theme-color;
+  border-color: $default-theme-color;
+}
+
+.popular-post h4 a:hover {
+  color: $default-theme-color;
+}
+
+.search {
+  background-color: $default-theme-color;
+}
+
+.search .search-icon:hover i {
+  color: $default-theme-color;
+}
+
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link {
+  border-color: $default-theme-color;
+}
+
+.blog-item-classic .blog-content h3 a:hover {
+  color: $default-theme-color;
+}
+
+.news-paggination li a:hover {
+  color: $default-theme-color;
+}
+
+.company-history li .year {
+  color: $default-theme-color
+}
+
+.company-history li .history-content:before {
+  background-color: $default-theme-color
+}
+
+.team-member h4 {
+  color: $default-theme-color
+}
+
+.list-bullets li:before {
+  background: $default-theme-color;
+}
+
+.left-nav li a:hover, .left-nav li a.active {
+  border-color: $default-theme-color;
+}
+
+.help-widget {
+  background-color: $default-theme-color;
+}
+
+.product-description h3 a:hover {
+  color: $default-theme-color;
+}
+
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover {
+  color: $default-theme-color;
+}
+
+.product-thumb label {
+  background: $default-theme-color;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+  background: $default-theme-color;
+}
+
+.top-products .top-products-detail i {
+  color: $default-theme-color;
+}
+
+.top-products .top-products-detail h4 a:hover {
+  color: $default-theme-color;
+}
+
+.ratings i {
+  color: $default-theme-color;
+}
+
+.resp-vtabs li.resp-tab-active {
+  color: $default-theme-color;
+}
+
+.resp-tab-active {
+  background: $default-theme-color;
+}
+
+.cart-total .amount {
+  color: $default-theme-color;
+}
+
+.banner-btn.colored {
+  background: $default-theme-color;
+}
+
+.map-with-address-widget a:hover {
+  color: $default-theme-color;
+}
+
+blockquote {
+  border-color: $default-theme-color;
+}
+
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected {
+  background: $default-theme-color;
+}
+
+.product-detail-slider .rslides_tabs li.rslides_here a {
+  background: $default-theme-color
+}
+
+.review-form-close:hover {
+  background: $default-theme-color;
+}
+
+.btn.btn-dark:hover {
+  background: $default-theme-color;
+}
+
+.btn-primary:hover {
+  background-color: darken($default-theme-color, 10%);
+}
+
+a:hover, a:focus, .btn-link:hover, .btn-link:focus {
+  color: darken($default-theme-color, 10%);
+}
+
+.icon-img-1 {
+  background-image: url(../images/color-scheme/green/icon1.png);
+}
+
+.icon-img-2 {
+  background-image: url(../images/color-scheme/green/icon2.png);
+}
+
+.icon-img-3 {
+  background-image: url(../images/color-scheme/green/icon3.png);
+}
+
+.icon-img-4 {
+  background-image: url(../images/color-scheme/green/icon4.png);
+}
+
+.icon-img-5 {
+  background-image: url(../images/color-scheme/green/icon5.png);
+}
+
+.icon-img-6 {
+  background-image: url(../images/color-scheme/green/icon6.png);
+}
+
+.icon-img-7 {
+  background-image: url(../images/color-scheme/green/icon7.png);
+}
+
+.icon-img-8 {
+  background-image: url(../images/color-scheme/green/icon8.png);
+}
+
+.icon-img-9 {
+  background-image: url(../images/color-scheme/green/icon9.png);
+}
+
+#footer .usefull-links-widget li a:hover {
+  background-image: url(../images/color-scheme/green/dot-h.png)
+}
+
+aside .testimonial-content {
+  background-image: url(../images/color-scheme/green/testimonial-pointer2.png)
+}
+
+.highlighted-sec li:nth-child(1n+1) .text-box {
+  background: $default-theme-color;
+}
+
+.highlighted-sec li:nth-child(2n+2) .text-box {
+  background: lighten($default-theme-color, 10%);
+}
+
+.highlighted-sec li:nth-child(3n+3) .text-box {
+  background: lighten($default-theme-color, 10%);
+}
+
+.highlighted-sec li:nth-child(4n+4) .text-box {
+  background: lighten($default-theme-color, 10%);
+}
+
+.highlighted-sec li:nth-child(5n+5) .text-box {
+  background: lighten($default-theme-color, 10%);
+}
+
+.highlighted-sec li:nth-child(6n+6) .text-box {
+  background: lighten($default-theme-color, 10%);
+}
+
+.services.highlighted .owl-item:nth-child(3n+1) .service-box {
+  background: $default-theme-color;
+}
+
+.services.highlighted .owl-item:nth-child(3n+2) .service-box {
+  background: darken($default-theme-color, 5%);
+}
+
+.services.highlighted .owl-item:nth-child(3n+3) .service-box {
+  background: darken($default-theme-color, 5%);
+}
+
+.cases-item figcaption {
+  background: rgba($default-theme-color, 0.80);
+}
+
+#header .top-bar:after, #header .top-bar {
+  background: $default-reverse-color;
+}
+
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after {
+  background: darken($default-reverse-color, 5%);
+}
+
+#header.header-two .main-nav {
+  background: $default-reverse-color
+}
+
+.smallHeader.active #header.header-two {
+  background: $default-reverse-color !important;
+}
+
+.testimonial-2 .testimonials-author p {
+  color: $default-theme-color;
+}
+
+#header.header-three .main-nav li a:hover, #header.header-three .main-nav li.active > a {
+  color: $default-theme-color;
+}
+
+.doing-the-right-text span {
+  color: $default-reverse-color;
+}

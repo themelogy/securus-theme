@@ -1,0 +1,67 @@
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin inline-block() {
+  display: inline-block;
+
+  &.c-pull-left {
+    float: left;
+  }
+
+  &.c-pull-right {
+    float: right;
+  }
+}
+
+// Set padding and margin to 0
+
+@mixin reset-padmar() {
+  padding: 0;
+  margin: 0;
+}
+
+// Border radius.
+
+@mixin border-radius($radius, $important: '') {
+  -webkit-border-radius: $radius#{$important};
+  -moz-border-radius: $radius#{$important};
+  -ms-border-radius: $radius#{$important};
+  -o-border-radius: $radius#{$important};
+  border-radius: $radius#{$important};
+}
+
+@mixin alpha($opacity) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity})"; // IE8
+  filter: alpha(opacity=#{$opacity});
+  opacity: #{$opacity}/100;
+}
+
+@mixin radial-gradient($from, $to) {
+  background: -moz-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $from), color-stop(100%, $to));
+  background: -webkit-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -o-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -ms-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background-color: $from;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}

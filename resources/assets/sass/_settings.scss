@@ -1,0 +1,14 @@
+$theme-colors: (
+        green1: #09a223,
+        red1: #c4161c,
+        purple1: #3a2c5f,
+        grey1: #565a60,
+        grey2: #4b4e53,
+        grey3: #414146
+);
+
+$default-theme-color: map_get($theme-colors, red1);
+$default-reverse-color: map_get($theme-colors, red1);
+
+$default-font-1: "Open Sans", sans-serif;
+$default-font-2: "Montserrat", sans-serif;

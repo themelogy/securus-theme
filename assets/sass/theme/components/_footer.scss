@@ -1,0 +1,241 @@
+
+#footer {
+  background: url(../images/colorfull-row.jpg) repeat-x 0 0 #f5f5f5;
+  color: #333333;
+}
+
+#footer a {
+  color: #333333;
+}
+
+#footer .footer-top {
+  padding: 70px 0;
+}
+
+#footer .footer-top p {
+  margin: 8px 0;
+}
+
+#footer .footer-logo {
+  position: relative;
+}
+
+#footer .footer-logo:after {
+  width: 1px;
+  content: "";
+  height: 69px;
+  background: #ababab;
+  position: absolute;
+  right: 0;
+  top: 21px;
+}
+
+#footer .footer-address-widget {
+  padding: 18px 32px;
+  background: #fff;
+}
+
+#footer .footer-address-widget ul li {
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  width: 40%;
+  position: relative;
+  padding-left: 60px;
+}
+
+#footer .footer-address-widget ul li:nth-child(2) {
+  width: 60%;
+}
+
+#footer .footer-address-widget ul li span, #footer .footer-address-widget ul li a {
+  display: block;
+  font-size: 16px;
+}
+
+#footer .footer-address-widget ul li i {
+  font-size: 40px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+}
+
+#footer .footer-address-widget ul li i.icon-icons74 {
+  font-size: 44px;
+  top: 4px;
+}
+
+#footer .usefull-links-widget {
+  margin-top: 45px;
+}
+
+#footer .usefull-links-widget h4 {
+  padding-bottom: 15px;
+  color: #131313;
+}
+
+#footer .usefull-links-widget ul {
+  width: 50%;
+  float: left;
+}
+
+#footer .usefull-links-widget li {
+  list-style: none;
+  padding: 6px 0;
+}
+
+#footer .usefull-links-widget li a {
+  font-size: 16px;
+  background: url(../images/dot.png) no-repeat 0 10px;
+  font-weight: 400;
+  font-family: $default-font-1;
+  padding-left: 20px;
+}
+
+#footer .twitter-widget {
+  margin-top: 45px;
+  padding-right: 40px;
+}
+
+#footer .twitter-widget h4 {
+  padding-bottom: 15px;
+  color: #131313;
+}
+
+#footer .twitter-widget .tweet i {
+  float: left;
+  font-size: 24px;
+  margin-top: 15px;
+  color: #818181;
+}
+
+#footer .twitter-widget .tweet p {
+  padding: 10px 0 0 30px;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#footer .twitter-widget .tweet p a {
+  font-weight: 600;
+}
+
+#footer .twitter-widget .tweet p span {
+  display: block;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+#footer .newsletter-widget {
+  padding: 20px 29px;
+  background: #e9e9e9;
+}
+
+#footer .newsletter-widget p {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 0 20px;
+}
+
+#footer .newsletter-widget .social {
+  background: #e3e3e3;
+  text-align: center;
+  padding: 17px;
+  margin: 50px -29px -20px;
+}
+
+#footer .footer-left {
+  float: left;
+  width: 65%;
+}
+
+#footer .footer-right {
+  float: left;
+  width: 35%;
+}
+
+#footer .footer-bottom {
+  padding: 30px 0;
+  background: #e9e9e9;
+}
+
+#footer .footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+  line-height: normal;
+}
+
+#footer.dark {
+  background-color: #323946;
+  color: #edf0f5;
+}
+
+#footer.dark .footer-logo {
+  border-color: #999ca3;
+}
+
+#footer.dark .footer-address-widget {
+  background-color: #383f4c;
+}
+
+#footer.dark a {
+  color: #edf0f5;
+}
+
+#footer.dark .usefull-links-widget h4, #footer.dark .twitter-widget h4 {
+  color: #fff;
+}
+
+#footer.dark .twitter-widget .tweet i {
+  color: #fff;
+}
+
+#footer.dark .newsletter-widget {
+  background: #2e3441;
+}
+
+#footer.dark .newsletter-widget h4 {
+  color: #fff;
+}
+
+#footer.dark input[type="text"], #footer.dark input[type="email"], #footer.dark input[type="number"], #footer.dark input[type="password"] {
+  background: #222732;
+  border-color: #545a65;
+}
+
+#footer.dark .newsletter-widget .social {
+  background-color: #222732
+}
+
+#footer.dark .social li a i {
+  background: none;
+  border-color: #525863;
+  color: #fff;
+}
+
+#footer.dark .footer-bottom {
+  background: #2d3440;
+}
+
+#footer {
+  .contact-info {
+    display: table;
+    ul.address > li {
+      margin-bottom: 10px;
+      i {
+        width: 30px;
+        padding-top: 3px;
+      }
+      span, i {
+        display: table-cell;
+        vertical-align: top;
+        line-height: normal;
+      }
+    }
+  }
+  ul.links {
+    li {
+      list-style-position: inside;
+    }
+  }
+}
