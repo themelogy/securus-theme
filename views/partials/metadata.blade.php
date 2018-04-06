@@ -5,7 +5,6 @@
 {!! seo_helper()->render() !!}
 <link rel="icon" type="image/png" href="{{ Theme::url('images/favicon.ico') }}">
 
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 <link href="{{ elixir('css/advisor.css', 'themes/securus') }}" rel="stylesheet" type="text/css"/>
 
 <!--[if lt IE 9]>

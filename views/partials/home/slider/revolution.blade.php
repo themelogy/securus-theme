@@ -9,7 +9,7 @@
                             <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="{{ $slider->present()->firstImage(300,200,'fit',80) }}" data-saveperformance="on" data-title="">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="{{ $slider->present()->firstImage(1900,782,'fit',80) }}" alt="" data-lazyload="{{ $slider->present()->firstImage(1900,782,'fit',80) }}" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="{{ $slider->present()->firstImage(1600,600,'fit',50) }}" alt="" data-lazyload="{{ $slider->present()->firstImage(1600,600,'fit',50) }}" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                                 @if($slider->title)
                                 <!-- LAYER NR. 1 -->

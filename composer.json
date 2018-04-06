@@ -1,6 +1,10 @@
 {
-  "name": "themelogy/securus-theme",
+  "name": "sagsoz06/Securus-theme",
+  "type": "asgard-theme",
   "description": "",
+  "keywords": [
+    "asgard-cms"
+  ],
   "license": "MIT",
   "require": {
     "php": ">=5.5",

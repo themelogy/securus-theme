@@ -24,7 +24,7 @@
                                 </li>
                                 <li>
                                     <i class="icon-telephone114"></i>
-                                    <span>{{ setting('theme::phone') }} <br/> <a href="mailto:{!! Html::email(setting('theme::email')) !!}">{!! Html::email(setting('theme::email')) !!}</a></span>
+                                    <span>{{ setting('theme::phone') }} <br/> <a href="mailto:{!! HTML::email(setting('theme::email')) !!}">{!! HTML::email(setting('theme::email')) !!}</a></span>
                                 </li>
                             </ul>
                             <div class="height-30"></div>
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6"><p>{{ trans('themes::theme.footer.copyrights', ['company' => setting('theme::company-name')]) }}</p></div>
-                <div class="col-md-6 col-sm-6"><p class="text-right">{{ trans('themes::theme.footer.designed by') }} <a href="http://www.qbicom.com.tr">Qbicom</a></p></div>
+                <div class="col-md-6 col-sm-6"><p class="text-right">{{ trans('themes::theme.footer.designed by') }} <a href="http://www.qbicom.com.tr">Qbicom Digital</a></p></div>
             </div>
         </div>
     </div>

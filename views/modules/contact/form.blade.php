@@ -35,7 +35,7 @@
 
 <div class="row">
     <div class="col-md-4 margin-left-0">
-        {!! Form::submit(trans('contact::contacts.form.submit'), ['class' => 'theme_button', 'value'=>trans('contact::contacts.form.submit')]) !!}
+        {!! Form::submit(trans('contact::contacts.form.submit'), ['class' => 'btn btn-primary', 'value'=>trans('contact::contacts.form.submit')]) !!}
     </div>
     <div class="col-md-8">
         <div class="form-group pull-right @if ($errors->has('g-recaptcha-response')) has-error @endif">
