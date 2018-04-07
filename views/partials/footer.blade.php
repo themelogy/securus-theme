@@ -1,13 +1,12 @@
 <footer id="footer">
     <div class="container">
         <div class="footer-top clearfix">
-
             <div class="row">
                 <div class="col-md-3 col-sm-3">
                     <div class="footer-logo animate fadeInLeft"><a href="{{ url(locale()) }}"><img src="{{ Theme::url('images/footer-logo.png') }}" alt=""></a></div>
                 </div>
                 <div class="col-md-9 col-sm-9">
-                    <p>SECURUS TURK provides foresights about sources of threat, enables service takers to manage risks by making them predictable both in daily lives and business operations. As SECURUS TURK, with our experienced team, we are eligible to reveal & remove the stones on your way!</p>
+                    <p>{!! trans('themes::theme.footer.intro') !!}</p>
                 </div>
             </div>
 
@@ -52,16 +51,17 @@
                             </ul>
                         </div>
                     </div>
+                    @inject("menuService", "Modules\Menu\Services\MenuService")
                     <div class="col-md-4">
                         <div class="clearfix">
-                            <h4>Corporate</h4>
-                            {!! Menu::render('corporate', \Modules\Theme\Presenters\Securus\FooterMenuLinksPresenter::class) !!}
+                            <h4>{{ $menuService->title('corporate') }}</h4>
+                            {!! Menu::render('corporate', \Themes\Securus\Presenter\FooterMenuLinksPresenter::class) !!}
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="clearfix">
-                            <h4>Services</h4>
-                            {!! Menu::render('services', \Modules\Theme\Presenters\Securus\FooterMenuLinksPresenter::class) !!}
+                            <h4>{{ $menuService->title('services') }}</h4>
+                            {!! Menu::render('services', \Themes\Securus\Presenter\FooterMenuLinksPresenter::class) !!}
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6"><p>{{ trans('themes::theme.footer.copyrights', ['company' => setting('theme::company-name')]) }}</p></div>
-                <div class="col-md-6 col-sm-6"><p class="text-right">{{ trans('themes::theme.footer.designed by') }} <a href="http://www.qbicom.com.tr">Qbicom Digital</a></p></div>
+                <div class="col-md-6 col-sm-6"><p class="text-right">{!! trans('themes::theme.footer.designed by', ['company'=>'<a href="http://www.qbicom.com.tr">Qbicom Digital</a>']) !!}</p></div>
             </div>
         </div>
     </div>

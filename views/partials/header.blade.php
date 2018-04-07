@@ -43,7 +43,7 @@
             </div>
 
             <nav class="main-nav navbar-collapse collapse" id="primary-nav">
-                {!! Menu::render('header', \Modules\Theme\Presenters\Securus\HeaderMenuPresenter::class) !!}
+                {!! Menu::render('header', \Themes\Securus\Presenter\HeaderMenuPresenter::class) !!}
             </nav>
 
         </div><!-- / HEADER INNER -->
